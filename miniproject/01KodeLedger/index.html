@@ -9,20 +9,55 @@
         box-sizing: border-box;
         margin: 0;
         padding: 0;
+        text-decoration: none;
       }
 
-      header {
+      #container {
         background: gray url("./images/home/showcase.jpg") no-repeat center
           center/cover;
+        padding: 10px;
         color: #f4f4f4;
         height: 100vh;
+      }
+
+      body {
+        line-height: 1.8;
+      }
+
+      #container h2,
+      h3 {
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+      }
+      h1 {
+        font-family: "Times New Roman";
+      }
+      .button {
+        display: block;
       }
     </style>
   </head>
   <body>
     <header>
       <div id="container">
-        <h1>KodeLedger</h1>
+        <div id="top">
+          <h1>KodeLedger</h1>
+          <thead>
+            <tr>
+              <th><a href="#"> Home </a></th>
+              <th><a href="#"> About </a></th>
+              <th><a href="#"> Cases </a></th>
+              <th><a href="#"> Blog </a></th>
+              <th><a href="#"> Contact </a></th>
+            </tr>
+          </thead>
+        </div>
+        <h2>The Sky Is The Limit</h2>
+        <h3>
+          We provide world class finacial assistance
+          <button class="btn">> Read more</button>
+        </h3>
       </div>
     </header>
   </body>
